@@ -22,6 +22,11 @@ data:
       maxLength: 256
       minLength: 36
       type: string
+    optional_property_1:
+      description: Description 1
+      maxLength: 256
+      minLength: 36
+      type: string
   required:
       - id
   additionalProperties: false
