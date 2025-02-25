@@ -14,7 +14,7 @@ data:
     vendor: com.snplow.sales.gcp.git
     name: gitops_login
     format: jsonschema
-    version: 1-0-2
+    version: 1-0-3
   type: object
   properties:
     id:
@@ -34,6 +34,11 @@ data:
       type: string
     optional_parameter_3:
       description: Third optional parameter in this schema
+      maxLength: 256
+      minLength: 36
+      type: string
+    optional_parameter_4:
+      description: Fourth optional parameter in this schema
       maxLength: 256
       minLength: 36
       type: string
