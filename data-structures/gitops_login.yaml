@@ -37,6 +37,11 @@ data:
       maxLength: 256
       minLength: 36
       type: string
+    optional_parameter_4:
+      description: Fourth optional parameter in this schema
+      maxLength: 256
+      minLength: 36
+      type: string
   required:
       - id
   additionalProperties: false
